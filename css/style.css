@@ -1,0 +1,247 @@
+/* navbar here */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgb(199, 175, 39);
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+body {
+  background-image: url(https://media2.giphy.com/media/UYBDCJjwOd9Re/giphy.gif);
+}
+/* paragraphes editing */
+.earst-paragraphe {
+  border: 5px solid rgba(28, 110, 164, 0.1);
+  border-radius: 40px 40px 40px 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: rgba(131, 35, 160, 0.1);
+}
+.earst-paragraphe p {
+  color: rgba(99, 132, 240, 0.986);
+}
+#player--2 {
+  border: 5px solid rgba(28, 110, 164, 0.1);
+  border-radius: 40px 40px 40px 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: rgba(131, 35, 160, 0.1);
+}
+#player--2 p {
+  color: rgba(99, 132, 240, 0.986);
+}
+#player--3 {
+  border: 5px solid rgba(28, 110, 164, 0.1);
+  border-radius: 40px 40px 40px 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: rgba(131, 35, 160, 0.1);
+}
+#player--3 p {
+  color: rgba(99, 132, 240, 0.986);
+}
+.whole-body-2 {
+  background: #ff9c26;
+  background: -moz-linear-gradient(
+    -45deg,
+    #ff9c26 0%,
+    #b2b2cf 73%,
+    #ff7a2b 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ff9c26 0%,
+    #b2b2cf 73%,
+    #ff7a2b 100%
+  );
+  background: linear-gradient(135deg, #ff9c26 0%, #b2b2cf 73%, #ff7a2b 100%);
+}
+.whole-body-2 p {
+  color: darkgreen;
+  font-size: 20px;
+}
+strong {
+  text-align: center;
+}
+i {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+  color: darkgray;
+}
+/* training menu animations */
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.training-type ul {
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; */
+  margin: auto;
+  list-style: none;
+  width: 955px;
+  height: 450px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 1px 1px 3px 1px;
+}
+
+.training-type ul li {
+  position: relative;
+  width: 190px;
+  height: 450px;
+  float: left;
+  border-left: 1px solid white;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  transition: all 0.7s;
+  box-shadow: -2px 0 10px 2px;
+}
+
+.training-type ul li:first-child {
+  border: none;
+}
+
+span {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  color: white;
+  white-space: nowrap;
+  padding: 20px;
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, rgba(0, 0, 0, 0.65)),
+    color-stop(100%, rgba(0, 0, 0, 0))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+img {
+  width: 800px;
+  height: 450px;
+}
+
+ul:hover li {
+  width: 50px;
+}
+
+ul li:hover {
+  width: 750px;
+}
+/* well it's setter training */
+.setter-tarining {
+  display: none;
+  padding-top: 40px;
+}
+.leberos-training {
+  display: none;
+  padding-top: 40px;
+}
+.middle-blockers {
+  display: none;
+  padding-top: 40px;
+}
+.outside-hitters {
+  display: none;
+  padding-top: 40px;
+}
+.right-spiker {
+  padding-top: 40px;
+  display: none;
+}
+.shopping:hover,
+.shopping:focus,
+.shopping:active {
+  transform: scale(2.1);
+}
+.shopping-button button {
+  background: peachpuff;
+  height: 70px;
+}
+.chopp {
+  background: gray
+    url(http://mikasasport.eu/skins/default/rwd_shoper/images/logo.png) 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 200px;
+  padding-top: 80px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+  color: blue;
+}
+
+.chopp h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+@-webkit-keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+footer {
+  transform: translateY(160px);
+  background-color: rgb(22, 34, 10, 0.3);
+}
